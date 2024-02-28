@@ -36,6 +36,6 @@ class SaleOrder(models.Model):
                 else:
                     rec.delivery_status = 'no_delivery'
                 if storable and service and rec.state == 'sale':
-                    rec.delivery_status = 'delivered'
+                    rec.delivery_status = 'full_delivery'
             else:
                 rec.delivery_status = 'nothing'

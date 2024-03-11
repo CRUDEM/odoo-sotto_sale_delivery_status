@@ -7,5 +7,5 @@ This documentation outlines the modifications made to the "sotto_sale_delivery_s
 Release notes:
 
 ## Version 14.0-1.0.0
-* Changed the value of the auto_install attribute to True in the `__manifest__.py`file. By setting auto_install to True, the addon will now automatically install along with its dependencies when the module is installed thus preventing manual installations through the UI.
+* Changed the value of the `auto_install` attribute to `True` in the `__manifest__.py`file. By setting `auto_install` to `True`, the addon will now automatically install along with its dependencies when the module is installed thus preventing manual installations through the UI.
 * Fixed `delivery_status` option bug, changed from the missing `delivered` to `full_delivery` statuses.
